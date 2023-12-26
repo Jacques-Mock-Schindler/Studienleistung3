@@ -29,6 +29,12 @@ Die Schülerinnen und Schüler sind in der Lage
 - durch Versuche die Steuerung des Roboters an die realen Gegebenheiten
   anzupassen.
 
+## Ablauf der Unterrichtssequenz
+
+- Einführung der Zustandsdiagramme
+- Regelkreis in der Robotik
+- Programmierung des Roboters
+
 
 ## Auftrag
 
