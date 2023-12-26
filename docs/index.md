@@ -7,6 +7,17 @@ Dabei wurden unteranderem Flussdiagramme als Hilfsmittel eingesetzt.
 Dies hat dazu geführt, dass bisher Computerprogramme als Abläufe
 verstanden wurden.
 
+## Lernziele
+
+Die Schülerinnen und Schüler sind in der Lage
+
+- zu erklären, wie ein Regelkreis in der Robotik funktioniert;
+- einen Regelkreis in einem UML-Zustandsdiagramm darzustellen;
+- ein UML-Zustandsdiagramm in ein Python Programm zu übersetzen;
+- die Steuerung eines Roboters zu simulieren sowie
+- durch Versuche die Steuerung des Roboters an die realen Gegebenheiten
+  anzupassen.
+
 
 ## Auftrag
 
