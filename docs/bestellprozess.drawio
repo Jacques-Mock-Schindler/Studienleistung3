@@ -22,10 +22,11 @@
                 <mxCell id="10" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" parent="1" vertex="1">
                     <mxGeometry x="385.69" y="912" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="VaOXHuJacDNkqNsKDK7j-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1.067;exitY=0.499;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7" target="8" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                <mxCell id="VaOXHuJacDNkqNsKDK7j-15" value="Bereitstellung für die Verpackung" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1.067;exitY=0.499;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7" target="8" edge="1">
+                    <mxGeometry x="-0.0586" y="89" width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="540" y="460" as="sourcePoint"/>
                         <mxPoint x="410" y="340" as="targetPoint"/>
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="VaOXHuJacDNkqNsKDK7j-19" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -83,10 +84,11 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="VaOXHuJacDNkqNsKDK7j-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9" target="10" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                <mxCell id="VaOXHuJacDNkqNsKDK7j-23" value="Auslieferung an den Kunden" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9" target="10" edge="1">
+                    <mxGeometry y="79" width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="600" y="760" as="sourcePoint"/>
                         <mxPoint x="550" y="810" as="targetPoint"/>
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="13" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
@@ -108,10 +110,11 @@
                         <mxPoint x="530" y="790" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="9">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                <mxCell id="19" value="Übergabe an den Kurrier" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="9">
+                    <mxGeometry x="-0.3909" y="70" width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="480" y="710" as="sourcePoint"/>
                         <mxPoint x="530" y="660" as="targetPoint"/>
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
             </root>
