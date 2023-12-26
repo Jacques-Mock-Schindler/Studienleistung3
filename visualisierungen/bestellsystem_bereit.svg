@@ -5,7 +5,7 @@
     <rect style="fill: #ffffff" x="166" y="194" width="143.5" height="36" rx="10" ry="10"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="166" y="194" width="143.5" height="36" rx="10" ry="10"/>
     <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="237.75" y="215.9">
-      <tspan x="237.75" y="215.9">Bestellsystm bereit</tspan>
+      <tspan x="237.75" y="215.9">Bestellsystem bereit</tspan>
     </text>
   </g>
   <ellipse style="fill: #000000" cx="237.75" cy="154" rx="10" ry="10"/>
