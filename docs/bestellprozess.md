@@ -19,6 +19,19 @@ Für Zustandsdiagramme gelten die folgenden grafischen Standards:
 
   ![Übergang](../visualisierungen/uebergang.svg)
 
+- Der Start wird mit einem ausgefüllten schwarzen Punkt dargestellt.
+- Das Ende wird mit einem von einem Ring umgebenen schwarzen Punkt
+  dargestellt.
+
+  ![Endzustand](../visualisierungen/endzustand.svg)
+
+- Verzweigungen bzw. Vereinigungen werden durch einen dicken schwarzen
+  Strich dargestellt.
+
+  ![Verzweigung](../visualisierungen/verzweigung.svg)
+
+  ![Vereinigung](../visualisierungen/vereinigung.svg)
+
 
 Dazu muss man sich Schritt für Schritt die verschiedenen Phasen, welche
 eine Bestellung durchläuft als separate Zustände vorstellen.
