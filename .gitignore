@@ -11,4 +11,6 @@
 !*.html
 !*.png
 !*.svg
-!visualisierung/*
+!*.drawio
+# unabhängig davon, wo sie sich befinden
+!*/
