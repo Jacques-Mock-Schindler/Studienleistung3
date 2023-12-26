@@ -3,9 +3,12 @@
 ## Ausgangslage
 
 Im bisherigen Unterricht wurden kleine Programme in Python erstellt.
-Dabei wurden unteranderem Flussdiagramme als Hilfsmittel eingesetzt.
+Dabei wurden unter anderem Flussdiagramme als Hilfsmittel eingesetzt.
 Dies hat dazu geführt, dass bisher Computerprogramme als Abläufe
 verstanden wurden.
+
+Den Schülerinnen und Schülern muss entsprechend der Regelkreis als
+Grundprinzip der Robotersteuerung erklärt werden.
 
 ## Lernziele
 
