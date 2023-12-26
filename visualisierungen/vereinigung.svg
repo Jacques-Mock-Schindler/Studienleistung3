@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="4cm" height="4cm" viewBox="138 239 80 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect style="fill: #000000" x="138" y="276" width="80" height="8"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="160" y1="241" x2="160" y2="273.764"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="155,264.882 160,274.882 165,264.882 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="198.009" y1="239.8" x2="198.009" y2="272.564"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="193.009,263.682 198.009,273.682 203.009,263.682 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="178" y1="284" x2="178.195" y2="315.864"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="173.141,307.013 178.202,316.982 183.141,306.952 "/>
+  </g>
+</svg>
