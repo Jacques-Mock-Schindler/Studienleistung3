@@ -3,11 +3,20 @@
 ## Ausgangslage
 
 Die geplante Unterrichtseinheit findet an einem Wirtschaftsgymnasium
-statt. Dies ermöglicht die Einführung der zustandsbasierten
+statt. 
+Im bisherigen Unterricht wurden kleine Programme in Python erstellt.
+Diese Programme haben teilweise Bezug genommen auf die Inhalte des
+Schwerpunktfaches Wirtschaft und Recht. So wurde zum Beispiel ein
+Kontokorrentkonto modelliert.
+Die Einführung der zustandsbasierten Programmierung erfolgt ebenfalls
+mit Bezugnahme auf das Schwerpunktfach.
+Als Beispiel dient ein Bestellprozess.
+Dabei wurden unter anderem Flussdiagramme als Hilfsmittel eingesetzt.
+Das hat allerdings zur Folge, dass 
+Dies ermöglicht die Einführung der zustandsbasierten
 Programmierung anhand der Darstellung von Geschäftsprozessen.
 
-Im bisherigen Unterricht wurden kleine Programme in Python erstellt.
-Dabei wurden unter anderem Flussdiagramme als Hilfsmittel eingesetzt.
+
 Dies hat dazu geführt, dass bisher Computerprogramme als Abläufe
 verstanden wurden.
 
