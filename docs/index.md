@@ -2,10 +2,15 @@
 
 ## Ausgangslage
 
+Die geplante Unterrichtseinheit findet an einem Wirtschaftsgymnasium
+statt. Dies ermöglicht die Einführung der zustandsbasierten
+Programmierung anhand der Darstellung von Geschäftsprozessen.
+
 Im bisherigen Unterricht wurden kleine Programme in Python erstellt.
 Dabei wurden unter anderem Flussdiagramme als Hilfsmittel eingesetzt.
 Dies hat dazu geführt, dass bisher Computerprogramme als Abläufe
 verstanden wurden.
+
 
 Den Schülerinnen und Schülern muss entsprechend der Regelkreis als
 Grundprinzip der Robotersteuerung erklärt werden.
