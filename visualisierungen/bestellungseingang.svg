@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="12cm" height="10cm" viewBox="145 143 233 184" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="169.95" y="194" width="143.5" height="36" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="169.95" y="194" width="143.5" height="36" rx="10" ry="10"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="241.7" y="215.9">
+      <tspan x="241.7" y="215.9">Bestellsystm bereit</tspan>
+    </text>
+  </g>
+  <ellipse style="fill: #000000" cx="241.7" cy="154" rx="10" ry="10"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="241.7" y1="164.977" x2="241.7" y2="191.764"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="236.7,182.882 241.7,192.882 246.7,182.882 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="146" y="290" width="191.4" height="36" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="146" y="290" width="191.4" height="36" rx="10" ry="10"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="241.7" y="311.9">
+      <tspan x="241.7" y="311.9">Bestellung in Verarbeitung</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="241.7" y1="230" x2="241.7" y2="287.764"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="236.7,278.882 241.7,288.882 246.7,278.882 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="251" y="258">
+    <tspan x="251" y="258">Bestellungseingang</tspan>
+  </text>
+</svg>

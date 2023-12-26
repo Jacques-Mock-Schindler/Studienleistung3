@@ -43,3 +43,8 @@ Bestellsystem bereit sein.
 
 ![Bestellsystem bereit](../visualisierungen/bestellsystem_bereit.svg)
 
+Der Übergang in den nächsten Zustand erfolgt durch die Entgegennahme
+einer Bestellung.
+
+![Bestellungseingang](../visualisierungen/bestellungseingang.svg)
+
