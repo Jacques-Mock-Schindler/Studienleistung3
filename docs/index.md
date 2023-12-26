@@ -11,15 +11,9 @@ Kontokorrentkonto modelliert.
 Die Einführung der zustandsbasierten Programmierung erfolgt ebenfalls
 mit Bezugnahme auf das Schwerpunktfach.
 Als Beispiel dient ein Bestellprozess.
-Dabei wurden unter anderem Flussdiagramme als Hilfsmittel eingesetzt.
-Das hat allerdings zur Folge, dass 
-Dies ermöglicht die Einführung der zustandsbasierten
-Programmierung anhand der Darstellung von Geschäftsprozessen.
-
-
-Dies hat dazu geführt, dass bisher Computerprogramme als Abläufe
-verstanden wurden.
-
+Dieser soll als UML-Zustandsdiagramm modelliert werden.
+Anschliessend sollen die neuen Kenntnisse zum UML-Zustandsdiagramm auf
+das Problem der Staubsaugersteuerung übertragen werden.
 
 Den Schülerinnen und Schülern muss entsprechend der Regelkreis als
 Grundprinzip der Robotersteuerung erklärt werden.
