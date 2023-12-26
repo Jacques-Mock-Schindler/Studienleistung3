@@ -32,7 +32,14 @@ Für Zustandsdiagramme gelten die folgenden grafischen Standards:
 
   ![Vereinigung](../visualisierungen/vereinigung.svg)
 
+## Der Bestellprozess als UML-Zustandsdiagramm
 
-Dazu muss man sich Schritt für Schritt die verschiedenen Phasen, welche
-eine Bestellung durchläuft als separate Zustände vorstellen.
+Um den Bestellprozess als UML-Zustandsdiagramm darstellen zu können,
+muss man sich Schritt für Schritt die verschiedenen Phasen, welche 
+eine Bestellung durchläuft, als separate Zustände vorstellen.
+
+Damit eine Bestellung entgegengenommen werden kann, muss das
+Bestellsystem bereit sein.
+
+![Bestellsystem bereit](../visualisierungen/bestellsystem_bereit.svg)
 
