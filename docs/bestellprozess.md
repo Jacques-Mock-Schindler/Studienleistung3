@@ -43,10 +43,11 @@ Bestellsystem bereit sein.
 
 ![Bestellsystem bereit](../visualisierungen/bestellsystem_bereit.svg)
 
-Der Übergang in den nächsten Zustand erfolgt durch die Entgegennahme
-einer Bestellung.
+Der Übergang in den nächsten Zustand erfolgt durch die *Entgegennahme
+einer Bestellung*.
 
 ![Bestellungseingang](../visualisierungen/bestellungseingang.svg)
 
+Dieser neue Zustand kann als *Bestellung in Verarbeitung* bezeichnet werden.
 
-
+![Bestellung in Verarbeitung](../visualisierungen/best_in_verarbeitung.svg)
