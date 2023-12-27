@@ -72,3 +72,10 @@ Zustände erreicht: Die *Bereitstellung* der Bestellung sowie die
 *Erstellung der Rechnung* für die Bestellung.
 
 ![Bereitstellung](../visualisierungen/bereitstellung.svg)
+
+Wenn die Ware bereitgestellt ist und die Rechnung erstellt, kann die
+Bestellung an die Spedition übergeben werden. Damit wird der Zustand
+*Versandbereit* erreicht. Die inneren Zustände sind damit alle
+durchlaufen und das Diagramm im inneren kann abgeschlossen werden.
+
+![Versandbereit](../visualisierungen/versandbereit.svg)
