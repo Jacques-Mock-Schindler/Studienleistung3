@@ -79,3 +79,8 @@ Bestellung an die Spedition übergeben werden. Damit wird der Zustand
 durchlaufen und das Diagramm im inneren kann abgeschlossen werden.
 
 ![Versandbereit](../visualisierungen/versandbereit.svg)
+
+Die versandbereite Bestellung kann an den Kurierdienst für die
+Zustellung an an den Kunden übergeben werden.
+
+![Abgeschlossener Bestellprozess](../visualisierungen/bestellprozess_abgeschlossen.svg)
