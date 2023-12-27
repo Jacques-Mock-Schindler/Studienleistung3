@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="12cm" height="10cm" viewBox="145 143 233 184" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="11cm" height="10cm" viewBox="165 143 213 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <ellipse style="fill: #000000" cx="241.8" cy="154" rx="10" ry="10"/>
   <g>
-    <rect style="fill: #ffffff" x="169.95" y="194" width="143.5" height="36" rx="10" ry="10"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="169.95" y="194" width="143.5" height="36" rx="10" ry="10"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="241.7" y="215.9">
-      <tspan x="241.7" y="215.9">Bestellsystem bereit</tspan>
-    </text>
-  </g>
-  <ellipse style="fill: #000000" cx="241.7" cy="154" rx="10" ry="10"/>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="241.7" y1="164.977" x2="241.7" y2="191.764"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="236.7,182.882 241.7,192.882 246.7,182.882 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="241.8" y1="164.977" x2="241.8" y2="191.764"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="236.8,182.882 241.8,192.882 246.8,182.882 "/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="146" y="290" width="191.4" height="36" rx="10" ry="10"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="146" y="290" width="191.4" height="36" rx="10" ry="10"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="241.7" y="311.9">
-      <tspan x="241.7" y="311.9"></tspan>
-    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="241.8" y1="230" x2="241.8" y2="287.764"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="236.8,278.882 241.8,288.882 246.8,278.882 "/>
   </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="241.7" y1="230" x2="241.7" y2="287.764"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="236.7,278.882 241.7,288.882 246.7,278.882 "/>
-  </g>
-  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="251" y="258">
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="251" y="258">
     <tspan x="251" y="258">Bestellungseingang</tspan>
   </text>
+  <g>
+    <rect style="fill: #ffffff" x="166.1" y="196" width="151.4" height="36" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="166.1" y="196" width="151.4" height="36" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="241.8" y="217.9">
+      <tspan x="241.8" y="217.9">Bestellsystem bereit</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="166.1" y="292.3" width="151.4" height="36" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="166.1" y="292.3" width="151.4" height="36" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="241.8" y="314.2">
+      <tspan x="241.8" y="314.2">Bestellsystem bereit</tspan>
+    </text>
+  </g>
 </svg>
