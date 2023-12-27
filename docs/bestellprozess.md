@@ -60,3 +60,8 @@ Dazu kann im Inneren des Zustandes *Bestellung in Verarbeitung* ein
 weiteres Zustandsdiagramm gezeichnet werden.
 
 ![Zustände in Zustand](../visualisierungen/zustand_in_zustand.svg)
+
+Im Zustand *Bestellung in Verarbeitung* ist die Nächste Aktion die
+*Freigabe der Bestellung*.
+
+![Freigabe der Bestellung](../visualisierungen/freigabe_der_bestellung.svg)
