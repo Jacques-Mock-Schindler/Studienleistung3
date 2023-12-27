@@ -64,4 +64,11 @@ weiteres Zustandsdiagramm gezeichnet werden.
 Im Zustand *Bestellung in Verarbeitung* ist die Nächste Aktion die
 *Freigabe der Bestellung*.
 
-![Freigabe der Bestellung](../visualisierungen/freigabe_der_bestellung.svg)
+![Freigabe der
+Bestellung](../visualisierungen/freigabe_der_bestellung.svg)
+
+Als nächstes Teilt sich der Prozess auf und es werden zwei parallele
+Zustände erreicht: Die *Bereitstellung* der Bestellung sowie die
+*Erstellung der Rechnung* für die Bestellung.
+
+![Bereitstellung](../visualisierungen/bereitstellung.svg)
