@@ -83,4 +83,8 @@ durchlaufen und das Diagramm im inneren kann abgeschlossen werden.
 Die versandbereite Bestellung kann an den Kurierdienst für die
 Zustellung an an den Kunden übergeben werden.
 
-![Abgeschlossener Bestellprozess](../visualisierungen/bestellprozess_abgeschlossen.svg)
+![Abgeschlossener
+Bestellprozess](../visualisierungen/bestellprozess_abgeschlossen.svg)
+
+Mit diesem Diagramm wird der Bestellprozess als eine Folge von Zuständen
+und Übergängen zwischen diesen Zuständen dargestellt.
