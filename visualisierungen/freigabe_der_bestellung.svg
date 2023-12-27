@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="26cm" height="16cm" viewBox="144 143 510 315" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <ellipse style="fill: #000000" cx="398.8" cy="154" rx="10" ry="10"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="398.8" y1="165.002" x2="398.8" y2="193.764"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="393.8,184.882 398.8,194.882 403.8,184.882 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="398.8" y1="232" x2="399.619" y2="290.764"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="394.496,281.953 399.634,291.882 404.495,281.813 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="408" y="258">
+    <tspan x="408" y="258">Bestellungseingang</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="323.1" y="196" width="151.4" height="36" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="323.1" y="196" width="151.4" height="36" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="398.8" y="217.9">
+      <tspan x="398.8" y="217.9">Bestellsystem bereit</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="146" y="293" width="507.3" height="164" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="146" y="293" width="507.3" height="164" rx="10" ry="10"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="399.65" y="314.9">
+      <tspan x="399.65" y="314.9">                                         Bestellung in Verarbeitung                                     </tspan>
+      <tspan x="399.65" y="330.9"></tspan>
+      <tspan x="399.65" y="346.9"></tspan>
+      <tspan x="399.65" y="362.9"></tspan>
+      <tspan x="399.65" y="378.9"></tspan>
+      <tspan x="399.65" y="394.9"></tspan>
+      <tspan x="399.65" y="410.9"></tspan>
+      <tspan x="399.65" y="426.9"></tspan>
+      <tspan x="399.65" y="442.9"></tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="401" cy="338" rx="10" ry="10"/>
+    <g>
+      <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="400.896" y1="348.993" x2="400.671" y2="372.764"/>
+      <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="395.755,363.835 400.661,373.882 405.755,363.93 "/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="415" y="361">
+      <tspan x="415" y="361">Freigabe der Bestellung</tspan>
+    </text>
+  </g>
+</svg>
