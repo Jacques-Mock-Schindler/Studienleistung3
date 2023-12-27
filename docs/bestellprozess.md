@@ -50,4 +50,13 @@ einer Bestellung*.
 
 Dieser neue Zustand kann als *Bestellung in Verarbeitung* bezeichnet werden.
 
-![Bestellung in Verarbeitung](../visualisierungen/best_in_verarbeitung.svg)
+![Bestellung in
+Verarbeitung](../visualisierungen/best_in_verarbeitung.svg)
+
+Der Zustand *Bestellung in Verarbeitung* ist allerdings kein
+monolithischer Block.
+Er weist vielmehr verschiedene (Teil-)Zustände auf.
+Dazu kann im Inneren des Zustandes *Bestellung in Verarbeitung* ein
+weiteres Zustandsdiagramm gezeichnet werden.
+
+![Zustände in Zustand](../visualisierungen/zustand_in_zustand.svg)
