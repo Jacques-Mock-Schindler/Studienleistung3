@@ -37,3 +37,16 @@ Um die Laufbahn an der KBW als UML-Zustandsdiagramm darstellen zu
 können, muss man sich Schritt für Schritt die verschiedenen Phasen,
 welche, eine Schülerin oder ein Schüler durchläuft, als separate
 Zustände vorstellen.
+
+Die Laufbahn an der KBW beginnt mit der Anmeldung zur Aufnahmeprüfung.
+Damit man sich anmelden kann, muss allerdings das Anmeldefenster für die
+Aufnahmeprüfung bereit sein. Dies wird mit einem Startzustand
+dargestellt.
+
+![Anmeldefenster offen](../visualisierungen/anmeldefenster.svg)
+
+Allerdings ist man erst nach dem Bezahlen der Anmeldegebühr wirklich
+angemeldet. Wird die Anmeldegebühr nicht bezahlt, ist die Laufbahn
+beendet, bevor sie wirklich begonnen hat.
+
+![Nicht bezahlte Anmeldegebühr](../visualisierungen/anmeldegebuehr.svg)
