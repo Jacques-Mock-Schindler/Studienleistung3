@@ -93,3 +93,23 @@ wechselt nach insgesamt sechs Semestern in den Zustand
 *Prüfungskandidat*.
 
 ![Provisorium](../visualisierungen/provisorium.svg)
+
+Falls jemand im Zustand *provisorisch* die Promotionsbedingungen am Ende
+des Semesters ein weiters Mal nicht erfüllt, muss er repetieren. Er wird
+also in den Zustand *Repetent* versetzt.
+
+![Repetition](../visualisierungen/repetent.svg)
+
+Falls ein Repetent die Promotionsbedingungen am Ende des Semesters ein
+weiters Mal nicht erfüllt, muss er die Schule verlassen. Wenn er die
+Bedingungen erfüllt, wechselt er nach acht Semestern in den Status
+*Prüfungskandidat*.
+
+![Aus nach Repetition](../visualisierungen/aus_nach_repetition.svg)
+
+Wer zur Abschlussprüfung antritt und besteht, verlässt die Schule mit
+Erfolg und wechselt in den Zustand *Alumnus*. Wer nicht besteht,
+wechselt nach dem ersten Versuch in den Status *Repetent*, nach dem
+zweiten Misserfolg muss die Schule ohne Abschluss verlassen werden.
+
+![Abschluss](../visualisierungen/abschluss.svg)
