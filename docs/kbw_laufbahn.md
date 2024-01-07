@@ -50,3 +50,8 @@ angemeldet. Wird die Anmeldegebühr nicht bezahlt, ist die Laufbahn
 beendet, bevor sie wirklich begonnen hat.
 
 ![Nicht bezahlte Anmeldegebühr](../visualisierungen/anmeldegebuehr.svg)
+
+Nach der Anmeldung muss die Aufnahmeprüfung bestanden werden. Wenn dies
+der Fall ist, ist man an die KBW aufgenommen.
+
+![Aufnahme an die KBW](../visualisierungen/aufnahme.svg)
