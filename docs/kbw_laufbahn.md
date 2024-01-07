@@ -55,3 +55,27 @@ Nach der Anmeldung muss die Aufnahmeprüfung bestanden werden. Wenn dies
 der Fall ist, ist man an die KBW aufgenommen.
 
 ![Aufnahme an die KBW](../visualisierungen/aufnahme.svg)
+
+Falls man die KBW erfolgreich durchläuft, wird man zum KBW Alumnus und
+die Laufbahn ist beendet.
+
+![Laufbahn vereinfacht](../visualisierungen/grob.svg)
+
+Der Zustand *Aufgenommen* weist allerdings verschiedene Unterzustände
+auf. Deshalb muss in diesem Zustand Platz geschaffen werden, um ein
+eigenes Zustandsdiagramm einbetten zu könne.
+
+![Aufgenommen mit Platz für Unterdiagramm](../visualisierungen/aufgenommen_gross.svg)
+
+Innerhalb des Zustands *Aufgenommen* startet ein neuer Prozess.
+
+![Aufgenommen mit Start eines Unterprozesses](../visualisierungen/aufgenommen_start.svg)
+
+Standardmässig beginnt die Laufbahn an der KBW mit einer Probezeit.
+
+![Probezeit](../visualisierungen/probezeit.svg)
+
+Wer die Probezeit bestanden hat, wird definitiv aufgenommen. Wer die
+Probezeit nicht besteht, muss die Schule verlassen.
+
+![Bestandene Probezeit](../visualisierungen/probezeit_bestanden.svg)
