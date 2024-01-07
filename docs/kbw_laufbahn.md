@@ -31,6 +31,14 @@ Für Zustandsdiagramme gelten die folgenden grafischen Standards:
 
   ![Vereinigung](../visualisierungen/vereinigung.svg)
 
+- Entscheidungen werden durch Rauten dargestellt. Die fragliche
+  Entscheidung wird als Text daneben geschrieben.
+
+  ![Entscheidung](../visualisierungen/entscheidung.svg)
+
+- Auflagen bei Übergängen (engl. guard) werden in eckige Klammern
+  geschrieben (`[Auflage]`).
+
 ## Die KBW Laufbahn
 
 Um die Laufbahn an der KBW als UML-Zustandsdiagramm darstellen zu
@@ -113,3 +121,6 @@ wechselt nach dem ersten Versuch in den Status *Repetent*, nach dem
 zweiten Misserfolg muss die Schule ohne Abschluss verlassen werden.
 
 ![Abschluss](../visualisierungen/abschluss.svg)
+
+Mit dem letzten Diagramm ist der Prozess der KBW-Laufbahn vollständig
+beschrieben.
