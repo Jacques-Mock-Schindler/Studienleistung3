@@ -79,3 +79,17 @@ Wer die Probezeit bestanden hat, wird definitiv aufgenommen. Wer die
 Probezeit nicht besteht, muss die Schule verlassen.
 
 ![Bestandene Probezeit](../visualisierungen/probezeit_bestanden.svg)
+
+Wer per Ende eines Semesters die Promotionsbedingungen erfüllt, bleibt
+definitiv und geht nach sechs Semestern an die Abschlussprüfungen (d.h.
+er erreicht den Zustand *Prüfungskandidat*).
+
+![Regellaufbahn](../visualisierungen/kandidat.svg)
+
+Wer per Ende eines Semesters die Promotionsbedingungen nicht erfüllt,
+wird in den Zustand *provisorisch* versetzt. Wenn er im Anschluss die
+Promotionsbedingungen wieder erfüllt, bleibt er in diesem Zustand und
+wechselt nach insgesamt sechs Semestern in den Zustand
+*Prüfungskandidat*.
+
+![Provisorium](../visualisierungen/provisorium.svg)
