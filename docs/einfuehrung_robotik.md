@@ -31,7 +31,8 @@ Im dritten Lernziel kann das Gros der Klasse sich auf das hin und her
 Fahren zwischen zwei Hindernissen (Wänden) beschränken. Stärkere SuS
 können die Steuerung dahingehend ergänzen, dass sie einen Algorithmus
 entwerfen und implementieren, der den Maqueen-Roboter die ganze
-Zimmerfläche abfahren lässt.  
+Zimmerfläche abfahren lässt und nach einer festgelegten Zeit zurück zur
+Basisstation fährt.
 
 ## Ablauf
 
@@ -57,3 +58,19 @@ können. Die entsprechenden Erläuterungen sind in einem
 [separaten Text](kbw_laufbahn.md) 
 zusammengestellt. In diesem Beispiel wird auch der
 UML-Darstellungsstandard für Zustandsdiagramme eingeführt.
+
+### Analyse und Darstellung der Steuerungsproblematik eines Roboter-Staubsaugers
+
+Der Roboter-Staubsauger soll seine Basisstation verlassen und nach einer
+zufällig gewählten Strecke in einem ebenfalls zufällig ewählten Winkel
+abdrehen und dann geradeaus fahren, bis er auf ein Hinderniss trifft.
+Sobald der Roboter-Staubsauger auf ein Hindreniss trifft, soll er
+zurücksetzen und in einem zufällig gewählten Winkel abdrehen und wieder
+so lange gerade aus fahren, bis er neuerdings auf ein Hindernis trifft.
+
+Dieser Vorgang soll während einer vorgebenen Zeit wiederholt werden.
+
+Leistungsstarke SuS können sich zusätzlich noch mit der Frage
+auseinandersetzen, wie die Steuerung ergänzt werden muss, damit der
+Roboter-Staubsauger nach Ablauf der vorgebenen Zeit wieder zurück zur
+Basisstation findet.
