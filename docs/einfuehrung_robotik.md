@@ -32,3 +32,28 @@ Fahren zwischen zwei Hindernissen (Wänden) beschränken. Stärkere SuS
 können die Steuerung dahingehend ergänzen, dass sie einen Algorithmus
 entwerfen und implementieren, der den Maqueen-Roboter die ganze
 Zimmerfläche abfahren lässt.  
+
+## Ablauf
+
+Der Unterricht gliedert sich in drei Phasen:
+
+1. Einführung in die zustandsbasierte Programmierung
+2. Analyse und Darstellung der Steuerungsproblematik eines
+   Roboter-Staubsaugers  
+3. Programmierung der Steuerung des Maqueen-Roboters  
+
+### Einführung in die zustandsbasierte Programmierung
+
+Damit die SuS ein Verständnis für die Funktion und die Darstellung von
+Zustandsdiagrammen entwickeln können, wird das Beispiel aus dem
+Lehrmittel Arnold/ Donner/ Hauser/ Hauswirth/ Hromkovič/ Kohn/ Komm/
+Maletinsky/ Roth, Informatik: Programmieren und Robotik: Grundlagen
+der Informatik für Schweizer Maturitätsschulen, 1. Auflage, Baar 2021, Klett
+und Balmer Verlag, Seite 142 (Beispiel 8.1, Ampelsteuerung),
+aufgenommen.
+
+Die SuS sollen ihre Schullaufbahn als UML-Zustandsdiagramm darstellen
+können. Die entsprechenden Erläuterungen sind in einem
+[separaten Text](kbw_laufbahn.md) 
+zusammengestellt. In diesem Beispiel wird auch der
+UML-Darstellungsstandard für Zustandsdiagramme eingeführt.
