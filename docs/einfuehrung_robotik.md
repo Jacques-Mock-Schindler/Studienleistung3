@@ -27,3 +27,8 @@ Roboter programmieren zu können ist es nicht erforderlich, dass die
 Problemstellung selbständig in einem Zustandsdiagramm abgebildet werden
 kann.
 
+Im dritten Lernziel kann das Gros der Klasse sich auf das hin und her
+Fahren zwischen zwei Hindernissen (Wänden) beschränken. Stärkere SuS
+können die Steuerung dahingehend ergänzen, dass sie einen Algorithmus
+entwerfen und implementieren, der den Maqueen-Roboter die ganze
+Zimmerfläche abfahren lässt.  
