@@ -8,7 +8,6 @@
 !.gitignore
 !requirements.txt
 !*.yml
-!*.html
 !*.png
 !*.svg
 !*.drawio
