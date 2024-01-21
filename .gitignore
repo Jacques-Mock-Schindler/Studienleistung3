@@ -2,6 +2,7 @@
 *
 # ausser...
 !*.md
+!*.py
 !*.ipynb
 !*.csv
 !*.CSV
