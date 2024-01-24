@@ -60,6 +60,10 @@ können. Die entsprechenden Erläuterungen sind in einem
 zusammengestellt. In diesem Beispiel wird auch der
 UML-Darstellungsstandard für Zustandsdiagramme eingeführt.
 
+Für die Einführung, wie die Programme der SuS auf den Maqueen Roboter übertragen
+werden wird auf die Anleitung im Lehrmittel Arnold et al., Seite 143 f.,
+verwiesen.
+
 ### Analyse und Darstellung der Steuerungsproblematik eines Roboter-Staubsaugers
 
 Der Roboter-Staubsauger soll seine Basisstation verlassen und nach einer
