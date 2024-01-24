@@ -13,7 +13,7 @@ Basisstation fahren.
 
 ## Absicht
 
-Ich will, dass Sie
+Ich will, dass Sie in Zweiergruppen
 
 - in einer ersten Phase die verschiedenen Zustände des Staubsauger-Roboters
   grafisch darstellen,
@@ -29,4 +29,17 @@ Ihres Roboter-Staubsaugers in Aktion zu demonstrieren.
 
 ## Besondere Anordnungen
 
-- 
+- verwenden Sie für die Erstellung der Grafik draw.io
+- programmieren Sie Ihren Maqueen in https://webtigerpython.ethz.ch/
+- es gilt die folgende Gruppeneinteilung:
+  - Team 1
+  - Team 2
+  - ...
+- bevor Sie zu programmieren beginnen, besprechen Sie Ihre graphische Analyse
+  mit mir
+- die Grafik und der Code ist abzugeben
+
+## Erreichbarkeit
+
+Zwischen den Lektionen erreichen Sie mich über die durch MS Teams zur Verfügung
+gestellten Kanäle.
