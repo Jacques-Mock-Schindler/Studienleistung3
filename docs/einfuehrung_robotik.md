@@ -39,9 +39,10 @@ Basisstation fährt.
 Der Unterricht gliedert sich in drei Phasen:
 
 1. Einführung in die zustandsbasierte Programmierung
-2. Analyse und Darstellung der Steuerungsproblematik eines
+2. Einführung in die Übertragung von Programmen auf den Maqueen Roboter 
+3. Analyse und Darstellung der Steuerungsproblematik eines
    Roboter-Staubsaugers  
-3. Programmierung der Steuerung des Maqueen-Roboters  
+4. Programmierung der Steuerung des Maqueen-Roboters  
 
 ### Einführung in die zustandsbasierte Programmierung
 
