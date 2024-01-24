@@ -72,5 +72,11 @@ Dieser Vorgang soll während einer vorgebenen Zeit wiederholt werden.
 
 Leistungsstarke SuS können sich zusätzlich noch mit der Frage
 auseinandersetzen, wie die Steuerung ergänzt werden muss, damit der
-Roboter-Staubsauger nach Ablauf der vorgebenen Zeit wieder zurück zur
-Basisstation findet.
+Roboter-Staubsauger nach Ablauf der vorgebenen Zeit das Abfahren der
+Zimmerfläche einstellt und  wieder zurück zur Basisstation findet.
+
+Im folgenden Zustandsdiagramm sind die einzelnen Elemente dargestellt. Die
+Farben entsprechen den Schwierigkeitsgraden von Skipisten. Die blauen Pisten
+sollten dabei von allen SuS bewältigt werden können.
+
+![Detailliertes Zustandsdiagramm](../visualisierungen/detailliertes_zustandsdiagramm.svg)
