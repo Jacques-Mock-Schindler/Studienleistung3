@@ -86,3 +86,11 @@ Zustandsdiagramm](../visualisierungen/detailliertes_zustandsdiagramm.svg)
 
 Die obigen Überlegungen führen zu Aufträgen an die SuS, die in einem spearaten
 Text zusammengestellt werden.
+
+### Musterlösung
+
+Die Musterlösung wurde lediglich für die für alle SuS zu bewältigende Aufgabe
+verfasst. Die roten und schwarzen Pistenenelemente würden den Rahmen einer
+vierstündigen Unterrichtseinheit bei weitem sprengen.
+
+Der Code der Musterlösung findet sich hier.
