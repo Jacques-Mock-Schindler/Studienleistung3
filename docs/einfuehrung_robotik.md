@@ -85,8 +85,8 @@ Zustandsdiagramm](../visualisierungen/detailliertes_zustandsdiagramm.svg)
 
 ### Aufträge an die Schülerinnen und Schüler
 
-Die obigen Überlegungen führen zu Aufträgen an die SuS, die in einem spearaten
-Text zusammengestellt werden.
+Die obigen Überlegungen führen zu Aufträgen an die SuS, die in einem 
+[separaten Text](auftraege.md) zusammengestellt werden.
 
 ### Musterlösung
 
