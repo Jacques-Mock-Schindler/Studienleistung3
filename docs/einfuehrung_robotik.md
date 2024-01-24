@@ -79,4 +79,10 @@ Im folgenden Zustandsdiagramm sind die einzelnen Elemente dargestellt. Die
 Farben entsprechen den Schwierigkeitsgraden von Skipisten. Die blauen Pisten
 sollten dabei von allen SuS bewältigt werden können.
 
-![Detailliertes Zustandsdiagramm](../visualisierungen/detailliertes_zustandsdiagramm.svg)
+![Detailliertes
+Zustandsdiagramm](../visualisierungen/detailliertes_zustandsdiagramm.svg)
+
+### Aufträge an die Schülerinnen und Schüler
+
+Die obigen Überlegungen führen zu Aufträgen an die SuS, die in einem spearaten
+Text zusammengestellt werden.
