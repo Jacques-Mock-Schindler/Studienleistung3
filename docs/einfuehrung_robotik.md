@@ -27,8 +27,8 @@ Roboter programmieren zu können ist es nicht erforderlich, dass die
 Problemstellung selbständig in einem Zustandsdiagramm abgebildet werden
 kann.
 
-Im dritten Lernziel kann das Gros der Klasse sich auf das hin und her
-Fahren zwischen zwei Hindernissen (Wänden) beschränken. Stärkere SuS
+Im dritten Lernziel kann das Gros der Klasse sich auf das Hin- und Herfahren
+zwischen zwei Hindernissen (Wänden) beschränken. Stärkere SuS
 können die Steuerung dahingehend ergänzen, dass sie einen Algorithmus
 entwerfen und implementieren, der den Maqueen-Roboter die ganze
 Zimmerfläche abfahren lässt und nach einer festgelegten Zeit zurück zur
@@ -36,12 +36,12 @@ Basisstation fährt.
 
 ## Ablauf
 
-Der Unterricht gliedert sich in drei Phasen:
+Der Unterricht gliedert sich in vier Phasen:
 
 1. Einführung in die zustandsbasierte Programmierung
 2. Einführung in die Übertragung von Programmen auf den Maqueen Roboter 
 3. Analyse und Darstellung der Steuerungsproblematik eines
-   Roboter-Staubsaugers  
+   Roboter-Staubsaugers
 4. Programmierung der Steuerung des Maqueen-Roboters  
 
 ### Einführung in die zustandsbasierte Programmierung
@@ -61,7 +61,7 @@ zusammengestellt. In diesem Beispiel wird auch der
 UML-Darstellungsstandard für Zustandsdiagramme eingeführt.
 
 Für die Einführung, wie die Programme der SuS auf den Maqueen Roboter übertragen
-werden wird auf die Anleitung im Lehrmittel Arnold et al., Seite 143 f.,
+werden, wird auf die Anleitung im Lehrmittel Arnold et al., Seite 143 f.,
 verwiesen.
 
 ### Analyse und Darstellung der Steuerungsproblematik eines Roboter-Staubsaugers
@@ -81,7 +81,7 @@ Roboter-Staubsauger nach Ablauf der vorgebenen Zeit das Abfahren der
 Zimmerfläche einstellt und  wieder zurück zur Basisstation findet.
 
 Im folgenden Zustandsdiagramm sind die einzelnen Elemente dargestellt. Die
-Farben entsprechen den Schwierigkeitsgraden von Skipisten. Die blauen Pisten
+Farben entsprechen den Schwierigkeitsgraden von Skipisten. Die blauen Elemente
 sollten dabei von allen SuS bewältigt werden können.
 
 ![Detailliertes
