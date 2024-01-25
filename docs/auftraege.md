@@ -24,8 +24,9 @@ Ich will, dass Sie in Zweiergruppen
 ## Auftrag
 
 Halten Sie sich bereit, per Ende der ersten Lektion Ihre grafische Darstellung
-der Zustände zu präsentieren sowie per Ende der dritten Lektion die Steuerung
-Ihres Roboter-Staubsaugers in Aktion zu demonstrieren.
+der Zustände zu präsentieren per Ende der zweiten Lektion die Ausfahrt des
+Roboter-Staubsaugers aus der Basisstation sowie per Ende der dritten Lektion die
+ganze Steuerung Ihres Roboter-Staubsaugers in Aktion zu demonstrieren.
 
 ## Besondere Anordnungen
 
