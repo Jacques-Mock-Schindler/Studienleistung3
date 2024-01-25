@@ -2,13 +2,13 @@
 *
 # ausser...
 !*.md
+!*.py
 !*.ipynb
 !*.csv
 !*.CSV
 !.gitignore
 !requirements.txt
 !*.yml
-
 !*.png
 !*.svg
 !*.drawio
