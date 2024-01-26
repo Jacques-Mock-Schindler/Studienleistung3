@@ -8,7 +8,7 @@ staubfrei halten kann, muss er nicht nur staubsaugen, sondern die
 gesamte Fläche des Zimmers abfahren. Daraus ergeben sich verschiedene
 Probleme bezüglich der Steuerung des Roboter-Staubsaugers.
 
-## Lernziele
+## Lernziele  
 
 Die SuS sollen in dieser Unterrichtseinheit in die Lage versetzt werden 
 
