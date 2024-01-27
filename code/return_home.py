@@ -157,9 +157,24 @@ def ausrichten(drehwinkel):
         right()
         delay(drehzeit)
         stop()
+        
+def nach_hause(anweisungs_vektor):
+    drehzeit = int(anweisungs_vektor[0])
+    fahrzeit = int(anweisungs_vektor[1])
     
-
+    if drehzeit < 0:
+        right()
+        delay(abs(drehzeit))
+        stop()
+    else:
+        left()
+        delay(drehzeit)
+        stop()
     
+    forward()
+    delay(fahrzeit)
+    stop()
+        
     
 
 ausfahrt()
@@ -181,18 +196,22 @@ dauer_forward = utime.ticks_diff(ende_forward,start_forward)
 entry = [dauer_forward, "Geradeaus"]
 journal.append(entry)
 stop()
-print(journal)
+print("Journal ",journal)
 p_vektoren = polar_vektoren(journal)
-print(p_vektoren)
+print("Polarvektoren ", p_vektoren)
 c_vektoren = polar_to_cart(p_vektoren)
 drehwinkel= drehwinkel_total(p_vektoren)
 print("Drehwinkel: ", drehwinkel)
-print(c_vektoren)
+print("Cartesianische Vektoren: ", c_vektoren)
 nach_hause_vektor = heim_vektor(c_vektoren)
-print(nach_hause_vektor)
+print("Nach Hause Vektor ",nach_hause_vektor)
 anweisung = cart_to_polar(nach_hause_vektor)
-print(anweisung)
+print("Anweisungsvektor: ", anweisung)
 ausrichten(drehwinkel)
+
+#nach_hause(anweisung)
+
+
 
 
 
