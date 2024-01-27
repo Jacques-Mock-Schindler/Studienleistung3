@@ -103,8 +103,7 @@ def polar_vektoren(journal):
     for entry in journal:
         if entry[1] == "Drehung":
             tmp = entry[0]
-            degree = 360/2150*tmp
-            entry[0] = degree
+            entry[0] = time_to_rad(tmp)
             
     vektoren = []
     count = len(journal)// 2 + 2
@@ -112,6 +111,12 @@ def polar_vektoren(journal):
         v = (journal[i][0],journal[i+1][0])
         vektoren.append(v)
     return vektoren
+
+def drehwinkel_total(p_vektoren):
+    winkel = 0
+    for v in p_vektoren:
+        winkel = winkel + v[0]
+    return winkel
 
 def polar_to_cart(vektoren):
     cartesianische_vektoren = []
@@ -122,6 +127,39 @@ def polar_to_cart(vektoren):
         cartesianische_vektoren.append((x, y))
     
     return cartesianische_vektoren
+
+def heim_vektor(vektoren):
+    x = 0
+    y = 0
+    for v in vektoren:
+        x = x + v[0]
+        y = y + v[1]
+    
+    return (-1*x, -1*y)
+
+def cart_to_polar(vektor):
+    x = vektor[0]
+    y = vektor[1]
+    r = math.sqrt(x ** 2 + y ** 2)
+    theta = math.atan2(x, y)
+    degree = math.degrees(theta)
+    drehzeit = (215*degree)/36
+    return (drehzeit, r)
+
+def ausrichten(drehwinkel):
+    degree = math.degrees(drehwinkel)
+    drehzeit = int(abs((215*degree)/36))
+    if drehwinkel < 0:
+        left()
+        delay(drehzeit)
+        stop()
+    else:
+        right()
+        delay(drehzeit)
+        stop()
+    
+
+    
     
 
 ausfahrt()
@@ -147,5 +185,14 @@ print(journal)
 p_vektoren = polar_vektoren(journal)
 print(p_vektoren)
 c_vektoren = polar_to_cart(p_vektoren)
+drehwinkel= drehwinkel_total(p_vektoren)
+print("Drehwinkel: ", drehwinkel)
 print(c_vektoren)
+nach_hause_vektor = heim_vektor(c_vektoren)
+print(nach_hause_vektor)
+anweisung = cart_to_polar(nach_hause_vektor)
+print(anweisung)
+ausrichten(drehwinkel)
+
+
 
