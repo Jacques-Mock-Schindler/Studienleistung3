@@ -11,7 +11,7 @@ def time_to_rad(time):
     return math.radians(degree)
 
 bewegungs_log = []
-journal = []
+journal = [[0, "Drehung"]]
 
 def log_bewegung(ereignis):
     timestamp = utime.ticks_ms()
@@ -44,10 +44,15 @@ def drehung():
         right()
         delay(time)
         stop()
+        
     #log_bewegung("Ende Drehung")
     ende_drehung = utime.ticks_ms()
     dauer_drehung = utime.ticks_diff(ende_drehung,start_drehung)
-    entry = [dauer_drehung, "Drehung"]
+    if direction == 1:
+        entry = [dauer_drehung, "Drehung"]
+    else:
+        entry = [-1 * dauer_drehung, "Drehung"]
+            
     journal.append(entry)
 
 def zuruecksetzen():
@@ -94,6 +99,20 @@ def geradeausfahrt():
     # Anhalten des Roboters nach 1 Minute
     stop()
     
+def polar_vektoren(journal):
+    for entry in journal:
+        if entry[1] == "Drehung":
+            tmp = entry[0]
+            degree = 360/2150*tmp
+            entry[0] = degree
+            
+    vektoren = []
+    count = len(journal)// 2 + 2
+    for i in range(0,count,2):
+        v = (journal[i][0],journal[i+1][0])
+        vektoren.append(v)
+    return vektoren
+    
 
 ausfahrt()
 drehung()
@@ -105,5 +124,15 @@ dauer_forward = utime.ticks_diff(ende_forward,start_forward)
 entry = [dauer_forward, "Geradeaus"]
 journal.append(entry)
 stop()
+drehung()
+start_forward = utime.ticks_ms()
+forward()
+delay(2000)
+ende_forward = utime.ticks_ms()
+dauer_forward = utime.ticks_diff(ende_forward,start_forward)
+entry = [dauer_forward, "Geradeaus"]
+journal.append(entry)
+stop()
 print(journal)
+print(polar_vektoren(journal))
 
