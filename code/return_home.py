@@ -112,6 +112,16 @@ def polar_vektoren(journal):
         v = (journal[i][0],journal[i+1][0])
         vektoren.append(v)
     return vektoren
+
+def polar_to_cart(vektoren):
+    cartesianische_vektoren = []
+    
+    for v in vektoren:
+        x = v[1] * math.cos(v[0])
+        y = v[1] * math.sin(v[0])
+        cartesianische_vektoren.append((x, y))
+    
+    return cartesianische_vektoren
     
 
 ausfahrt()
@@ -134,5 +144,8 @@ entry = [dauer_forward, "Geradeaus"]
 journal.append(entry)
 stop()
 print(journal)
-print(polar_vektoren(journal))
+p_vektoren = polar_vektoren(journal)
+print(p_vektoren)
+c_vektoren = polar_to_cart(p_vektoren)
+print(c_vektoren)
 
