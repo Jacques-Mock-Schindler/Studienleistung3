@@ -20,11 +20,10 @@ def log_bewegung(ereignis):
 
 def ausfahrt():
     time = random.randrange(500,2000,500)
-    #log_bewegung("Beginn forward")
+
     start_ausfahrt = utime.ticks_ms()
     forward()
     delay(time)
-    #log_bewegung("Ende forward")
     ende_ausfahrt = utime.ticks_ms()
     dauer_ausfahrt = utime.ticks_diff(ende_ausfahrt,start_ausfahrt)
     stop()
@@ -32,7 +31,6 @@ def ausfahrt():
     journal.append(entry)
 
 def drehung():
-    #log_bewegung("Beginn Drehung")
     start_drehung = utime.ticks_ms()
     time = random.randrange(200,900,50)
     direction = random.choice([1,-1])
@@ -45,7 +43,6 @@ def drehung():
         delay(time)
         stop()
         
-    #log_bewegung("Ende Drehung")
     ende_drehung = utime.ticks_ms()
     dauer_drehung = utime.ticks_diff(ende_drehung,start_drehung)
     if direction == 1:
@@ -56,11 +53,9 @@ def drehung():
     journal.append(entry)
 
 def zuruecksetzen():
-    #log_bewegung("Beginn backward")
     start_rueckfahrt = utime.ticks_ms()
     backward()
     delay(500)
-    #log_bewegung("Ende backward")
     stop()
     ende_rueckfahrt = utime.ticks_ms()
     dauer_rueckfahrt = utime.ticks_diff(ende_rueckfahrt,start_rueckfahrt)
@@ -73,7 +68,6 @@ def geradeausfahrt():
     
     start_forward = utime.ticks_ms()
     forward()
-    #log_bewegung("forward")
     while True:
         # Prüfen, ob die Fahrtzeit abgelaufen ist
         if utime.ticks_diff(utime.ticks_ms(), start_time) >= duration:
@@ -91,7 +85,6 @@ def geradeausfahrt():
             
             start_forward = utime.ticks_ms()
             forward()
-            #log_bewegung("forward")
         
         # Fügen Sie eine kleine Verzögerung ein, um den Prozessor nicht zu überlasten
         utime.sleep_ms(100)
