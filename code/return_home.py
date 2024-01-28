@@ -151,6 +151,33 @@ def ausrichten(drehwinkel):
         delay(drehzeit)
         stop()
         
+def distanz_zur_homebase(vektor):
+    x = vektor[0]
+    y = vektor[1]
+    
+    z = math.sqrt(x ** 2 + y ** 2)
+    return z
+
+def winkel_zur_homebase(vektor):
+    a = vektor[1]
+    b = vektor[0]
+    beta = math.atan2(b, a)
+    beta_strich = 180 - beta
+    print("beta strich: ", beta_strich)
+    drehzeit = int((215*beta)/36)
+    return drehzeit
+
+def ausrichtung_zur_homebase(drehzeit):
+    time = int((215*drehzeit)/36)
+    if drehzeit >0:
+        left()
+        delay(time)
+        stop()
+    else:
+        right()
+        delay(abs(time))
+        stop()
+        
 def nach_hause(anweisungs_vektor):
     drehzeit = int(anweisungs_vektor[0])
     fahrzeit = int(anweisungs_vektor[1])
@@ -198,10 +225,13 @@ print("Drehwinkel: ", drehwinkel)
 print("Cartesianische Vektoren: ", c_vektoren)
 nach_hause_vektor = heim_vektor(c_vektoren)
 print("Nach Hause Vektor ",nach_hause_vektor)
-anweisung = cart_to_polar(nach_hause_vektor)
-print("Anweisungsvektor: ", anweisung)
+
+#anweisung = cart_to_polar(nach_hause_vektor)
+#print("Anweisungsvektor: ", anweisung)
 ausrichten(drehwinkel)
 
+home_vektor = winkel_zur_homebase(nach_hause_vektor)
+ziel_anvisieren = ausrichtung_zur_homebase(home_vektor)
 #nach_hause(anweisung)
 
 
