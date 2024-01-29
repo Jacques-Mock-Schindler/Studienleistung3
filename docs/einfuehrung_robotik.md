@@ -29,19 +29,19 @@ kann.
 
 Im dritten Lernziel kann das Gros der Klasse sich darauf beschränken,
 den Roboter-Staubsauger so zu programmieren, dass er Hindernissen
-ausweicht. 
-Stärkere SuS
-können die Steuerung dahingehend ergänzen, dass sie einen Algorithmus
-entwerfen und implementieren, der den Maqueen-Roboter die ganze
-Zimmerfläche abfahren lässt und nach einer festgelegten Zeit zurück zur
-Basisstation fährt.
+ausweicht.  
+Stärkere SuS können die Steuerung dahingehend ergänzen, dass sie einen
+Algorithmus entwerfen und implementieren, der den Maqueen-Roboter nach
+einer bestimmten Zeit anhalten lässt. Wirklich starke SuS können das
+Programm noch um eine Rückfahr Funktion ergänzen, welche den
+Maqueen-Roboter wieder an den Ausgangspunkt zurückfahren lässt. 
 
 ## Ablauf
 
 Der Unterricht gliedert sich in vier Phasen:
 
 1. Einführung in die zustandsbasierte Programmierung
-2. Einführung in die Übertragung von Programmen auf den Maqueen Roboter 
+2. Einführung in die Übertragung von Programmen auf den Maqueen-Roboter 
 3. Analyse und Darstellung der Steuerungsproblematik eines
    Roboter-Staubsaugers
 4. Programmierung der Steuerung des Maqueen-Roboters  
@@ -69,18 +69,11 @@ verwiesen.
 ### Analyse und Darstellung der Steuerungsproblematik eines Roboter-Staubsaugers
 
 Der Roboter-Staubsauger soll seine Basisstation verlassen und nach einer
-zufällig gewählten Strecke in einem ebenfalls zufällig ewählten Winkel
-abdrehen und dann geradeaus fahren, bis er auf ein Hinderniss trifft.
-Sobald der Roboter-Staubsauger auf ein Hindreniss trifft, soll er
+zufällig gewählten Strecke in einem ebenfalls zufällig gewählten Winkel
+abdrehen und dann geradeaus fahren, bis er auf ein Hindernis trifft.
+Sobald der Roboter-Staubsauger auf ein Hindrenis trifft, soll er
 zurücksetzen und in einem zufällig gewählten Winkel abdrehen und wieder
 so lange gerade aus fahren, bis er neuerdings auf ein Hindernis trifft.
-
-Dieser Vorgang soll während einer vorgebenen Zeit wiederholt werden.
-
-Leistungsstarke SuS können sich zusätzlich noch mit der Frage
-auseinandersetzen, wie die Steuerung ergänzt werden muss, damit der
-Roboter-Staubsauger nach Ablauf der vorgebenen Zeit das Abfahren der
-Zimmerfläche einstellt und  wieder zurück zur Basisstation findet.
 
 Im folgenden Zustandsdiagramm sind die einzelnen Elemente dargestellt. Die
 Farben entsprechen den Schwierigkeitsgraden von Skipisten. Die blauen Elemente
@@ -97,7 +90,10 @@ Die obigen Überlegungen führen zu Aufträgen an die SuS, die in einem
 ### Musterlösung
 
 Die Musterlösung wurde lediglich für die für alle SuS zu bewältigende Aufgabe
-verfasst. Die roten und schwarzen Pistenenelemente würden den Rahmen einer
-vierstündigen Unterrichtseinheit bei weitem sprengen.
+sowie für den Timer verfasst. Damit dürfte man sich bereits am oberen
+Ende dessen befinden, was in vier Lektionen zu bewältigen ist. Die
+Implementierung einer Funktion für die Rückfahrt zur Basistation würden
+den Rahmen einer vierstündigen Unterrichtseinheit bei weitem sprengen
+und ist deshalb nicht implementiert.
 
 Der Code der Musterlösung findet sich hier.
