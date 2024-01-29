@@ -18,7 +18,7 @@ Die SuS sollen in dieser Unterrichtseinheit in die Lage versetzt werden
   Verfügung stehenden Sensoren zu programmieren sowie
 - konkrete Programmentwürfe durch Tests mit einem Maqueen-Roboter zu überprüfen.
 
-Differenzierungen der Lernziele sind insbesondere im zweiten und dritten
+Differenzierungen der Aufgabenstellungen sind insbesondere im zweiten und dritten
 Lernziel möglich.
 
 Im zweiten Lernziel ist es möglich, dass die schwächeren SuS sich auf
@@ -27,8 +27,10 @@ Roboter programmieren zu können ist es nicht erforderlich, dass die
 Problemstellung selbständig in einem Zustandsdiagramm abgebildet werden
 kann.
 
-Im dritten Lernziel kann das Gros der Klasse sich auf das Hin- und Herfahren
-zwischen zwei Hindernissen (Wänden) beschränken. Stärkere SuS
+Im dritten Lernziel kann das Gros der Klasse sich darauf beschränken,
+den Roboter-Staubsauger so zu programmieren, dass er Hindernissen
+ausweicht. 
+Stärkere SuS
 können die Steuerung dahingehend ergänzen, dass sie einen Algorithmus
 entwerfen und implementieren, der den Maqueen-Roboter die ganze
 Zimmerfläche abfahren lässt und nach einer festgelegten Zeit zurück zur
