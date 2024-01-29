@@ -1,4 +1,4 @@
-# Programmierung eines Staubsuagermodells
+# Programmierung eines Staubsaugermodells
 
 ## Orientierung
 
@@ -8,7 +8,7 @@ es darum, ein solches Modell auf die Steuerung eines Roboter-Staubsaugers
 anzuwenden.
 
 Roboter-Staubsauger sollen in einem Raum die ganze Fläche selbständig abfahren
-um dabei überall den Staub aufzunehmen. Anschliessend sollen sie zurück zur
+um dabei überall den Staub aufzunehmen. Abschliessend sollen sie zurück zur
 Basisstation fahren.
 
 ## Absicht
@@ -19,7 +19,7 @@ Ich will, dass Sie in Zweiergruppen
   grafisch darstellen,
 - in einer zweiten Phase die dargestellten Zustände in Python Funktionen
   "übersetzen" und
-- die Funktion der Funktionen parallel auf ihre tauglichkeit überprüfen.
+- die Funktion der Funktionen parallel auf ihre Tauglichkeit überprüfen.
 
 ## Auftrag
 
