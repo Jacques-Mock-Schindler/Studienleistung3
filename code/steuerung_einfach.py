@@ -38,11 +38,25 @@ def drehung():
         stop()
 
 def zuruecksetzen():
+    """
+    Die Funktion zurücksetzen lässt den Roboter-Staubsauger während
+    einer halben Sekunde zurückfahren. Die Funktion wird verwendet, wenn
+    der Roboter-Staubsauger auf ein Hindernis trifft.
+    """
     backward()
     delay(500)
     stop()
 
 def geradeausfahrt():
+    """
+    Die Funktion steuert den Roboter-Staubsauger auf der Fläche. Mit
+    repeat: wird sichergestellt, dass der Distanzsensor permanent den
+    Abstand zum nächsten Hindernis misst. Sobald diese Distanz unter 5cm
+    fällt, setzt der Roboter-Staubsauger zurück, dreht ab und fährt dann
+    weiter.  
+    Die Funktion ist damit, dass sie sich selber aufruft ein Beispiel
+    für das Konzept der Rekursion.
+    """
     forward()
     repeat:
         d = getDistance()
