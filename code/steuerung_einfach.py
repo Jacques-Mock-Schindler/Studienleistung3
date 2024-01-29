@@ -3,6 +3,14 @@ from microbit import *
 from mbrobot import *
 
 def ausfahrt():
+    """
+    Die Funktion steuert die Ausfahrt aus der Basistation des
+    Roboter-Staubsaugers.  
+    Mit time = random.randrange(500,2000,500) wird sichergestellt, dass
+    der Roboterstaubsauger nicht bei jeder Ausfahrt an der selben Stelle
+    ablenkt.
+    """
+    
     time = random.randrange(500,2000,500)
     forward()
     delay(time)
