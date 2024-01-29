@@ -1,3 +1,8 @@
+---
+header-includes:
+    - \usepackage[german]{babel}
+---
+
 # Einführung in die Programmierung eines Maqueen-Roboters
 
 In dieser Unterrichtseinheit sollen die Schülerinnen und Schüler (SuS)

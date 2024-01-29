@@ -1,3 +1,8 @@
+---
+header-includes:
+    - \usepackage[german]{babel}
+---
+
 # Die Darstellung der Laufbahn eines Absolventen der KBW als Zustandsdiagramm
 
 Die Laufbahn einer Schülerin bzw. eines Schülers (SuS) an der
