@@ -71,7 +71,7 @@ verwiesen.
 Der Roboter-Staubsauger soll seine Basisstation verlassen und nach einer
 zufällig gewählten Strecke in einem ebenfalls zufällig gewählten Winkel
 abdrehen und dann geradeaus fahren, bis er auf ein Hindernis trifft.
-Sobald der Roboter-Staubsauger auf ein Hindrenis trifft, soll er
+Sobald der Roboter-Staubsauger auf ein Hindernis trifft, soll er
 zurücksetzen und in einem zufällig gewählten Winkel abdrehen und wieder
 so lange gerade aus fahren, bis er neuerdings auf ein Hindernis trifft.
 
@@ -80,7 +80,7 @@ Farben entsprechen den Schwierigkeitsgraden von Skipisten. Die blauen Elemente
 sollten dabei von allen SuS bewältigt werden können.
 
 ![Detailliertes
-Zustandsdiagramm](../visualisierungen/detailliertes_zustandsdiagramm.svg)
+Zustandsdiagramm](../visualisierungen/detailliertes_zustandsdiagramm.pdf)
 
 ### Aufträge an die Schülerinnen und Schüler
 
