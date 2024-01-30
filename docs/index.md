@@ -10,7 +10,9 @@ in die Besonderheiten der Programmierung eines Roboters eingeführt
 werden. Der Maqueen-Roboter soll dabei als Modell eines
 Roboter-Staubsaugers dienen. Damit ein Roboter-Staubsauger ein Zimmer
 staubfrei halten kann, muss er nicht nur staubsaugen, sondern die
-gesamte Fläche des Zimmers abfahren. Daraus ergeben sich verschiedene
+gesamte Fläche des Zimmers abfahren und rechtzeitig zum Leeren des
+Staubbehälters bzw. zum Aufladen des Akkus wieder zur Basisstation
+zurückkehren. Daraus ergeben sich verschiedene
 Probleme bezüglich der Steuerung des Roboter-Staubsaugers.
 
 ## Lernziele  
@@ -28,18 +30,20 @@ Lernziel möglich.
 
 Im zweiten Lernziel ist es möglich, dass die schwächeren SuS sich auf
 das Lesen und Verstehen eines Zustandsdiagramms beschränken. Um einen
-Roboter programmieren zu können ist es nicht erforderlich, dass die
+Roboter programmieren zu können, ist es nicht erforderlich, dass die
 Problemstellung selbständig in einem Zustandsdiagramm abgebildet werden
 kann.
 
 Im dritten Lernziel kann das Gros der Klasse sich darauf beschränken,
 den Roboter-Staubsauger so zu programmieren, dass er Hindernissen
-ausweicht.  
+ausweicht und einen grossen Teil der Raumfläche abdeckt.  
 Stärkere SuS können die Steuerung dahingehend ergänzen, dass sie einen
 Algorithmus entwerfen und implementieren, der den Maqueen-Roboter nach
 einer bestimmten Zeit anhalten lässt. Wirklich starke SuS können das
-Programm noch um eine Rückfahr Funktion ergänzen, welche den
-Maqueen-Roboter wieder an den Ausgangspunkt zurückfahren lässt. 
+Programm noch um eine Rückfahr-Funktion ergänzen, welche den
+Maqueen-Roboter wieder an den Ausgangspunkt zurückfahren lässt. Dies
+erfordert jedoch ein gewisses Mass an Kenntnissen aus der
+Vektorgeometrie. 
 
 ## Ablauf
 
