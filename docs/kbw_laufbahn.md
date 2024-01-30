@@ -12,22 +12,17 @@ grafisch dargestellt werden.
 
 ## Darstellungselemente für ein UML Zustandsdiagramm
 
-Für Zustandsdiagramme gelten die folgenden grafischen Standards:
-
-- Zustände werden als Rechtecke mit abgerundeten Ecken dargestellt.
-- Übergänge von einem Zustand in einen anderen Zustand werden als Pfeile
-  mit Beschriftung dargestellt.
-- Der Start wird mit einem ausgefüllten schwarzen Punkt dargestellt.
-- Das Ende wird mit einem von einem Ring umgebenen schwarzen Punkt
-  dargestellt.
-- Verzweigungen bzw. Vereinigungen werden durch einen dicken schwarzen
-  Strich dargestellt.
-- Entscheidungen werden durch Rauten dargestellt. Die fragliche
-  Entscheidung wird als Text daneben geschrieben.
-- Auflagen bei Übergängen (engl. guard) werden in eckige Klammern
-  geschrieben (`[Auflage]`).
+Für die Darstellungselemente eines UML Zustandsdiagrammes wird auf den
+entsprechenden Eintrag in der
+[Wikipedia](https://de.wikipedia.org/wiki/Zustandsdiagramm_(UML)#Elemente),
+insbesondere den Abschnitt "Elemente" verwiesen.
 
 ## Die KBW Laufbahn
+
+In diesem Abschnitt wird die beigefügte Grafik als Text umschrieben. Um
+den SuS den Zugang zur Darstellung zu vereinfachen, wird in
+einer Einführungslektion das Diagramm Element für Element
+aufgebaut. 
 
 Um die Laufbahn an der KBW als UML-Zustandsdiagramm darstellen zu
 können, muss man sich Schritt für Schritt die verschiedenen Phasen,
@@ -50,7 +45,7 @@ Falls man die KBW erfolgreich durchläuft, wird man zum KBW Alumnus und
 die Laufbahn ist beendet.
 
 Der Zustand *Aufgenommen* weist allerdings verschiedene Unterzustände
-auf. Deshalb muss in diesem Zustand Platz geschaffen werden, um ein
+auf. Deshalb muss in diesem Zustand Platz gelassen werden, um ein
 eigenes Zustandsdiagramm einbetten zu könne.
 
 Innerhalb des Zustands *Aufgenommen* startet ein neuer Prozess.
@@ -89,4 +84,4 @@ zweiten Misserfolg muss die Schule ohne Abschluss verlassen werden.
 Mit diesem Diagramm ist der Prozess der KBW-Laufbahn vollständig
 beschrieben.
 
-In einer Einführungslektion wird das Diagramm Element für Element aufgebaut.
+
