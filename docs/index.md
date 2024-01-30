@@ -105,4 +105,6 @@ Implementierung einer Funktion für die Rückfahrt zur Basistation würden
 den Rahmen einer vierstündigen Unterrichtseinheit bei weitem sprengen
 und ist deshalb nicht implementiert.
 
-Der Code der Musterlösung findet sich hier.
+Der Code der Musterlösung findet sich
+[hier (Grundauftrag)](../code/steuerung_einfach.py) und 
+[hier (mit Timer)](../code/steureung_mit_timer.py).
