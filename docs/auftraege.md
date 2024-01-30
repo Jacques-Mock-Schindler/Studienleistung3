@@ -19,12 +19,12 @@ Ich will, dass Sie in Zweiergruppen
   grafisch darstellen,
 - in einer zweiten Phase die dargestellten Zustände in Python Funktionen
   "übersetzen" und
-- die Funktion der Funktionen parallel auf ihre Tauglichkeit überprüfen.
+- die Lauffähigkeit der Funktionen parallel auf ihre Tauglichkeit überprüfen.
 
 ## Auftrag
 
 Halten Sie sich bereit, per Ende der ersten Lektion Ihre grafische Darstellung
-der Zustände zu präsentieren per Ende der zweiten Lektion die Ausfahrt des
+der Zustände zu präsentieren, per Ende der zweiten Lektion die Ausfahrt des
 Roboter-Staubsaugers aus der Basisstation sowie per Ende der dritten Lektion die
 ganze Steuerung Ihres Roboter-Staubsaugers in Aktion zu demonstrieren.
 
