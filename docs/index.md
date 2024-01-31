@@ -89,7 +89,7 @@ Farben entsprechen den Schwierigkeitsgraden von Skipisten. Die blauen Elemente
 sollten dabei von allen SuS bewältigt werden können.
 
 ![Detailliertes
-Zustandsdiagramm](../visualisierungen/detailliertes_zustandsdiagramm.pdf)
+Zustandsdiagramm](../visualisierungen/detailliertes_zustandsdiagramm.svg)
 
 ### Aufträge an die Schülerinnen und Schüler
 

@@ -79,7 +79,7 @@ Erfolg und wechselt in den Zustand *Alumnus*. Wer nicht besteht,
 wechselt nach dem ersten Versuch in den Status *Repetent*, nach dem
 zweiten Misserfolg muss die Schule ohne Abschluss verlassen werden.
 
-![KBW Laufbahn](../visualisierungen/KBW_Laufbahn_SMD.pdf){ width=75% }
+![KBW Laufbahn](../visualisierungen/KBW_Laufbahn_SMD.svg)
 
 Mit diesem Diagramm ist der Prozess der KBW-Laufbahn vollständig
 beschrieben.
