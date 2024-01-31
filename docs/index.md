@@ -37,9 +37,9 @@ kann.
 Im dritten Lernziel kann das Gros der Klasse sich darauf beschränken,
 den Roboter-Staubsauger so zu programmieren, dass er Hindernissen
 ausweicht und einen grossen Teil der Raumfläche abdeckt.  
-Stärkere SuS können die Steuerung dahingehend ergänzen, dass sie einen
+Talentiertere SuS können die Steuerung dahingehend ergänzen, dass sie einen
 Algorithmus entwerfen und implementieren, der den Maqueen-Roboter nach
-einer bestimmten Zeit anhalten lässt. Wirklich starke SuS können das
+einer bestimmten Zeit anhalten lässt. Wirklich talentierte SuS können das
 Programm noch um eine Rückfahr-Funktion ergänzen, welche den
 Maqueen-Roboter wieder an den Ausgangspunkt zurückfahren lässt. Dies
 erfordert jedoch ein gewisses Mass an Kenntnissen aus der
@@ -82,7 +82,7 @@ zufällig gewählten Strecke in einem ebenfalls zufällig gewählten Winkel
 abdrehen und dann geradeaus fahren, bis er auf ein Hindernis trifft.
 Sobald der Roboter-Staubsauger auf ein Hindernis trifft, soll er
 zurücksetzen und in einem zufällig gewählten Winkel abdrehen und wieder
-so lange gerade aus fahren, bis er neuerdings auf ein Hindernis trifft.
+so lange geradeaus fahren, bis er neuerdings auf ein Hindernis trifft.
 
 Im folgenden Zustandsdiagramm sind die einzelnen Elemente dargestellt. Die
 Farben entsprechen den Schwierigkeitsgraden von Skipisten. Die blauen Elemente
@@ -101,10 +101,11 @@ Die obigen Überlegungen führen zu Aufträgen an die SuS, die in einem
 Die Musterlösung wurde lediglich für die für alle SuS zu bewältigende Aufgabe
 sowie für den Timer verfasst. Damit dürfte man sich bereits am oberen
 Ende dessen befinden, was in vier Lektionen zu bewältigen ist. Die
-Implementierung einer Funktion für die Rückfahrt zur Basistation würden
-den Rahmen einer vierstündigen Unterrichtseinheit bei weitem sprengen
+Implementierung einer Funktion für die Rückfahrt zur Basisstation würden
+den Rahmen einer vierstündigen Unterrichtseinheit bei Weitem sprengen
 und ist deshalb nicht implementiert.
 
 Der Code der Musterlösung findet sich
-[hier (Grundauftrag)](../code/steuerung_einfach.py) und 
-[hier (mit Timer)](../code/steureung_mit_timer.py).
+[in der Datei `steuerung_einfach.py` (Grundauftrag)](../code/steuerung_einfach.py) 
+sowie
+[in der Datei `steuerung_mit_timer.py` (mit Timer)](../code/steureung_mit_timer.py).
