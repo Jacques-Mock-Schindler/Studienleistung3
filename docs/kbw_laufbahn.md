@@ -26,7 +26,7 @@ aufgebaut.
 
 Um die Laufbahn an der KBW als UML-Zustandsdiagramm darstellen zu
 können, muss man sich Schritt für Schritt die verschiedenen Phasen,
-welche, eine Schülerin oder ein Schüler durchläuft, als separate
+welche eine Schülerin oder ein Schüler durchläuft, als separate
 Zustände vorstellen.
 
 Die Laufbahn an der KBW beginnt mit der Anmeldung zur Aufnahmeprüfung.
@@ -46,7 +46,7 @@ die Laufbahn ist beendet.
 
 Der Zustand *Aufgenommen* weist allerdings verschiedene Unterzustände
 auf. Deshalb muss in diesem Zustand Platz gelassen werden, um ein
-eigenes Zustandsdiagramm einbetten zu könne.
+eigenes Zustandsdiagramm einbetten zu können.
 
 Innerhalb des Zustands *Aufgenommen* startet ein neuer Prozess.
 
