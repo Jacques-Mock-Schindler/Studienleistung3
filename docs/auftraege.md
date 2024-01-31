@@ -1,4 +1,4 @@
-# Programmierung eines Staubsuagermodells
+# Programmierung eines Staubsaugermodells
 
 ## Orientierung
 
@@ -8,7 +8,7 @@ es darum, ein solches Modell auf die Steuerung eines Roboter-Staubsaugers
 anzuwenden.
 
 Roboter-Staubsauger sollen in einem Raum die ganze Fläche selbständig abfahren
-um dabei überall den Staub aufzunehmen. Anschliessend sollen sie zurück zur
+um dabei überall den Staub aufnehmen. Abschliessend sollen sie zurück zur
 Basisstation fahren.
 
 ## Absicht
@@ -19,26 +19,26 @@ Ich will, dass Sie in Zweiergruppen
   grafisch darstellen,
 - in einer zweiten Phase die dargestellten Zustände in Python Funktionen
   "übersetzen" und
-- die Funktion der Funktionen parallel auf ihre tauglichkeit überprüfen.
+- die Lauffähigkeit der Funktionen parallel auf ihre Tauglichkeit überprüfen.
 
 ## Auftrag
 
 Halten Sie sich bereit, per Ende der ersten Lektion Ihre grafische Darstellung
-der Zustände zu präsentieren per Ende der zweiten Lektion die Ausfahrt des
+der Zustände zu präsentieren, per Ende der zweiten Lektion die Ausfahrt des
 Roboter-Staubsaugers aus der Basisstation sowie per Ende der dritten Lektion die
 ganze Steuerung Ihres Roboter-Staubsaugers in Aktion zu demonstrieren.
 
 ## Besondere Anordnungen
 
-- verwenden Sie für die Erstellung der Grafik draw.io
-- programmieren Sie Ihren Maqueen in https://webtigerpython.ethz.ch/
-- es gilt die folgende Gruppeneinteilung:
+- Verwenden Sie für die Erstellung der Grafik draw.io
+- Programmieren Sie Ihren Maqueen in https://webtigerpython.ethz.ch/
+- Es gilt die folgende Gruppeneinteilung:
   - Team 1
   - Team 2
   - ...
-- bevor Sie zu programmieren beginnen, besprechen Sie Ihre graphische Analyse
+- Bevor Sie zu programmieren beginnen, besprechen Sie Ihre graphische Analyse
   mit mir
-- die Grafik und der Code ist abzugeben
+- Die Grafik und der Code ist abzugeben
 
 ## Erreichbarkeit
 
