@@ -8,7 +8,7 @@ es darum, ein solches Modell auf die Steuerung eines Roboter-Staubsaugers
 anzuwenden.
 
 Roboter-Staubsauger sollen in einem Raum die ganze Fläche selbständig abfahren
-um dabei überall den Staub aufzunehmen. Abschliessend sollen sie zurück zur
+um dabei überall den Staub aufnehmen. Abschliessend sollen sie zurück zur
 Basisstation fahren.
 
 ## Absicht
@@ -30,15 +30,15 @@ ganze Steuerung Ihres Roboter-Staubsaugers in Aktion zu demonstrieren.
 
 ## Besondere Anordnungen
 
-- verwenden Sie für die Erstellung der Grafik draw.io
-- programmieren Sie Ihren Maqueen in https://webtigerpython.ethz.ch/
-- es gilt die folgende Gruppeneinteilung:
+- Verwenden Sie für die Erstellung der Grafik draw.io
+- Programmieren Sie Ihren Maqueen in https://webtigerpython.ethz.ch/
+- Es gilt die folgende Gruppeneinteilung:
   - Team 1
   - Team 2
   - ...
-- bevor Sie zu programmieren beginnen, besprechen Sie Ihre graphische Analyse
+- Bevor Sie zu programmieren beginnen, besprechen Sie Ihre graphische Analyse
   mit mir
-- die Grafik und der Code ist abzugeben
+- Die Grafik und der Code ist abzugeben
 
 ## Erreichbarkeit
 
